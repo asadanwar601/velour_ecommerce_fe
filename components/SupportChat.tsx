@@ -6,8 +6,11 @@ import { createChat } from "chat_n8n";
 
 export default function SupportChat() {
   useEffect(() => {
-    const apiUrl = process.env.NEXT_PUBLIC_CHAT_API_URL;
-    const botId = process.env.NEXT_PUBLIC_CHAT_BOT_ID;
+    const apiUrl: string =
+      process.env.NEXT_PUBLIC_CHAT_API_URL ||
+      "https://n8n-saas-host.onrender.com/v1/chat";
+    const botId: string =
+      process.env.NEXT_PUBLIC_CHAT_BOT_ID || "baveha_support";
 
     const chat = createChat({
       apiUrl,
