@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import SupportChat from '@/components/SupportChat';
 import { CartProvider } from '@/lib/store';
 import AnnouncementBar from '@/components/AnnouncementBar';
 import Navbar from '@/components/Navbar';
@@ -44,6 +45,7 @@ export default function RootLayout({
           <CartDrawer />
           <ToastContainer />
         </CartProvider>
+        <SupportChat />
       </body>
     </html>
   );
