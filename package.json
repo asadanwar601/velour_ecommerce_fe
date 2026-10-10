@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "axios": "^1.20.0",
-    "chat_n8n": "git+https://github.com/asadanwar60/chat_n8n.git#4c781a6",
+    "chat_n8n": "git+https://github.com/asadanwar60/chat_n8n.git#660f1f5",
     "next": "^15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
