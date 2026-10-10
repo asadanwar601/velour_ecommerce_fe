@@ -44,8 +44,8 @@ export default function RootLayout({
           <Footer />
           <CartDrawer />
           <ToastContainer />
+          <SupportChat />
         </CartProvider>
-        <SupportChat />
       </body>
     </html>
   );
